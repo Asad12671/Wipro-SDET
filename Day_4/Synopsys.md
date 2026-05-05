@@ -140,3 +140,67 @@ forEach() → Executes a function on each element
 find() → Returns first matching element
 some() → Checks if at least one element matches
 every() → Checks if all elements match
+
+// 10 API PRACTICE SUMMARY
+// =======================
+
+// 1. TODOS
+// data → filter id → map title
+
+// 2. POSTS
+// data → filter userId → map title
+
+// 3. COMMENTS
+// data → filter id → map email
+
+// 4. USERS
+// data → filter id → map name
+
+// 5. ALBUMS
+// data → filter id → map title
+
+// 6. PHOTOS
+// data → filter id → map url
+
+// 7. CAT FACTS
+// obj.data → filter length → map fact
+
+// 8. DOG FACTS
+// obj.data → map attributes.body
+
+// 9. RANDOM USER
+// obj.results → filter gender → map name.first
+
+// 10. POKEMON
+// obj.results → filter name → map name
+
+// =======================
+// SPECIAL LOGIC
+// =======================
+
+Object.entries(data.rates)
+.filter(([k, v]) => v > 90)
+
+// =======================
+// ERROR HANDLING
+// =======================
+
+.catch(err => console.error(err))
+
+// =======================
+// MEMORY SHORTCUT
+// =======================
+
+/\*
+fetch → json → filter → map → output
+
+array → filter/map
+object → Object.entries()
+
+data / data.data / data.results
+
+then → success
+catch → error
+
+Sync → Promise → setTimeout
+\*/
