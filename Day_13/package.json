@@ -1,0 +1,31 @@
+{
+  "name": "wipro-sedt-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "fsevents": "^2.3.2",
+    "playwright": "^1.60.0",
+    "playwright-core": "^1.60.0",
+    "undici-types": "^7.21.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.8.0"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Asad12671/Wipro-SDET.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Asad12671/Wipro-SDET/issues"
+  },
+  "homepage": "https://github.com/Asad12671/Wipro-SDET#readme"
+}
